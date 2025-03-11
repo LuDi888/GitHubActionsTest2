@@ -9,5 +9,4 @@ jobs:
         - run: npm --version
         - run: npm install
         - run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
-        - run: CI=false npm run build
         - run: npm run build
